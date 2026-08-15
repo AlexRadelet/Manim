@@ -1,0 +1,15 @@
+[project]
+name = "manim-shorts"
+version = "0.1.0"
+description = "Scripts Manim pour des vidéos courtes de maths"
+requires-python = ">=3.12"
+dependencies = [
+    "manim==0.21.0",
+]
+
+[tool.setuptools]
+packages = ["shared"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
