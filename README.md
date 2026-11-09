@@ -71,6 +71,12 @@ manim -pqh chapitres/derivees/001-intuition-derivee/scene.py NomDeLaScene
 - [ ] Dérivées
 - [ ] Intégrales
 - [ ] Espaces vectoriels
+- [x] Physique — ch. 2 Cinématique à une dimension (`chapitres/physique-ch2-cinematique-1d/`, format 16:9)
+- [x] Physique — ch. 3 Inertie et mouvement à deux dimensions (`chapitres/physique-ch3-mouvement-2d/`, format 16:9)
+- [x] Physique — ch. 4 Dynamique de la particule, partie 1 (`chapitres/physique-ch4-dynamique-1/`, format 16:9)
+- [x] Physique — ch. 5 Dynamique de la particule, partie 2 (`chapitres/physique-ch5-dynamique-2/`, format 16:9)
+
+Les vidéos de physique utilisent `shared/physique.py`, qui force le 16:9 (partage d'écran en cours) et définit le code couleur position / vitesse / accélération.
 
 ## Licence
 

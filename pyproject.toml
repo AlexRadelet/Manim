@@ -13,3 +13,22 @@ packages = ["shared"]
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
+
+# Versions validées avec Smart App Control : les builds plus récents
+# de numpy/scipy/av/... ont été bloqués par Windows (DLL refusées).
+[tool.uv]
+constraint-dependencies = [
+    "av==18.1.0",
+    "manimpango==0.6.1",
+    "networkx==3.6.1",
+    "numpy==2.5.2",
+    "scipy==1.18.0",
+    "pycairo==1.29.1",
+    "pillow==12.3.0",
+    "skia-pathops==0.9.2",
+    "mapbox-earcut==2.0.0",
+    "moderngl==5.12.0",
+    "moderngl-window==3.1.1",
+    "glcontext==3.0.0",
+    "pyglm==2.8.3",
+]
